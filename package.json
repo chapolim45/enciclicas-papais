@@ -1,0 +1,26 @@
+{
+  "name": "enciclicas-papais",
+  "version": "0.1.1",
+  "description": "server initialization",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chapolim45/enciclicas-papais.git"
+  },
+  "author": "Chapolin45",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chapolim45/enciclicas-papais/issues"
+  },
+  "homepage": "https://github.com/chapolim45/enciclicas-papais#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
