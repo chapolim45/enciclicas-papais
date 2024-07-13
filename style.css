@@ -1,0 +1,65 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+  }
+
+p {text-indent: 10px;
+   font-size: 21px; 
+   font-family: "Roboto";
+   /*font-family: sans-serif;*/
+   
+   text-align: justify;
+   padding-left: 400px;
+   padding-right: 400px;
+   padding-bottom: 20px;
+   
+}
+
+
+h1{
+    color:goldenrod;
+    font-size: 40px;
+    font-family: "Roboto";
+}
+
+h2{
+    font-size: 30px;
+    font-family: "Roboto";}
+
+h3{
+    font-size: 25px;
+    font-family: "Roboto";
+}
+
+a{color:#ae6800;}
+
+.subtitulo{
+    color:goldenrod;
+    font-style: italic;
+}
+
+.subtexto{padding-left: 440px;}
+
+.data{font-style: italic;}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.select{
+    padding-left: 200px;
+    height: 45px;
+    width: 100%;
+    background-color: white;
+}
+
+.header{
+    text-align: center;
+    background-image: url(images/wp22718263.jpg);
+    background-size: cover;
+    width: 1920px;
+    height:230px;
+}
+
