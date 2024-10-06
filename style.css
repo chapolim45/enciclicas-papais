@@ -1,49 +1,78 @@
+/* *  {outline: 2px solid red;} */
+
 html, body {
     margin: 0; 
     padding: 0;
   }
 
 p,h1,h2,h3{font-family: "Roboto", sans-serif;}
-.subtitulo, .titulo{color:goldenrod;}
-.subtitulo, .data{font-style: italic;}
 
-p {text-indent: 10px;
-   font-size: 21px; 
-   text-align: justify;
-   padding-left: 400px;
-   padding-right: 400px;
-   padding-bottom: 20px;
-   
+.nomePapa, .tipoDocumento, .nomeDocumento, .listaPapal, .documentos, h3{ text-align: center;}
+
+.nomeDocumento, .titulo, .graybar a{color:goldenrod;}
+
+.nomeDocumento, #data{font-style: italic;}
+
+#titulo h1{font-family: "trajan";}
+
+#titulo{
+  margin-left: 660px;
+  display: flex;
 }
 
-h1{font-size: 40px;}
+h1, .listaPapal, .documentos{font-size: 40px;}
 
 h2{font-size: 30px;}
 
 h3{font-size: 25px;}
 
-a{color:#ae6800;}
+.subtexto{padding-left: 40px;}
 
-.subtexto{padding-left: 440px;}
-
-
-.select{
-    padding-left: 200px;
-    height: 45px;
-    width: 100%;
-    background-color: white;
+p {
+  text-indent: 10px;
+  font-size: 21px; 
+  text-align: justify;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-bottom: 20px;
 }
 
 .header{
-    text-align: center;
-    background-image: url(images/wp22718263.jpg);
-    background-size: cover;
-    height:230px;
-    width: 1920px;
+  text-align: center;
+  background-image: url(images/wp22718263.jpg);
+  background-size: cover;
+  height:230px; /*overflow*/
+  width: 1920px;
 }
+
+.graybar{
+  width: 100%;
+  height: 80px;
+  background-color: gray;
+}
+
+.graybarlinks{
+  font-size: 37px;
+  margin-left: 22%
+}
+
+.popebar{
+  margin-top: 20px;
+  margin-left: 200px;
+  outline: 2px solid gray;
+  display: flex;
+}
+
+
+
 
 .roboto-regular {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+@font-face {
+  font-family: "trajan";
+  src: url(fonts/trajan-regular.ttf);
 }
