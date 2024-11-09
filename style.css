@@ -11,33 +11,34 @@ p,h1,h2,h3{font-family: "Roboto", sans-serif;}
 
 a{text-decoration: none;}
 
-.nomePapa, .tipoDocumento, .nomeDocumento, .listaPapal, .documentos, h3{ text-align: center;}
+.nomePapa, .tipoDocumento, .nomeDocumento, .documentos, h3{ text-align: center;}
 
-.nomeDocumento, .titulo, .header .links a{color:#daa520;}
+.nomeDocumento, .links a {color:#daa520;}
 
-.nomeDocumento, #data{font-style: italic;}
+.textoDocumento a{color:#BC8E1C;
+                  font-weight: 600;}
+
+.nomeDocumento, .data{font-style: italic;}
 
 .header{
   width: 100%;
-  height: 80px;
+  height: 75px;
   background-color:  /*#2A2C33;*/ /*#33302A;*/  #59493A;  /* #48370B; */ /* #3A4C59; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 37px;
   /* border: 2px solid red; */
 }
 
-.header .links{
-  padding-top: 10px;
-  font-size: 37px;
-  margin-left: 22%; /*centralizar usando flex (justify-content:center) */
-}
-
-#titulo h1{font-family: "trajan";}
-
-#titulo{
+.titulo{
   display: flex;
   justify-content: center;
 }
 
-h1, .listaPapal, .documentos{font-size: 40px;}
+.titulo h1{font-family: "trajan";}
+
+h1, .documentos{font-size: 40px;}
 
 h2{font-size: 30px;}
 
@@ -55,21 +56,32 @@ p {
   
 }
 
-.popebar{
+.documentosRecentes{
+  text-align: center;
+  font-size: 50px;
+  color: #59391b;
+}
+
+.barraPapa{
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 200px;
   margin-right: 200px;
   outline: 3px solid gray;
   border-radius: 25px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
 }
 
-.imagempapa{margin: 10px;
+.imagempapa{
+            margin: 10px;
             margin-right: 0px;
           }
+.popename{color:#daa520;}
+.nomepapa a{color:#daa520;}
 
-.listas{margin-left:20px;
+.listas{
+        margin-left:20px;
         display: flex;
       }   
 
@@ -79,7 +91,6 @@ p {
   list-style: none;
             
 }
-
 
 .roboto-regular {
   font-family: "Roboto", sans-serif;
