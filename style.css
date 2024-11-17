@@ -5,6 +5,7 @@ html, body {
     padding: 0;
   }
 
+
 /* Cor para modo escuro body{ background-color: rgb(17 24 39);} */
 
 p,h1,h2,h3{font-family: "Roboto", sans-serif;}
@@ -20,7 +21,7 @@ a{text-decoration: none;}
 
 .nomeDocumento, .data{font-style: italic;}
 
-.header{
+.nav{
   width: 100%;
   height: 75px;
   background-color:  /*#2A2C33;*/ /*#33302A;*/  #59493A;  /* #48370B; */ /* #3A4C59; */
@@ -31,12 +32,16 @@ a{text-decoration: none;}
   /* border: 2px solid red; */
 }
 
-.titulo{
+.nav .links{
+  flex-shrink: 0;
+}
+
+.header{
   display: flex;
   justify-content: center;
 }
 
-.titulo h1{font-family: "trajan";}
+.header h1{font-family: "trajan";}
 
 h1, .documentos{font-size: 40px;}
 
@@ -71,6 +76,8 @@ p {
   border-radius: 25px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
+  flex-wrap: wrap;
+  min-width: 300px;
 }
 
 .imagempapa{
