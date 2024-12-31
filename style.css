@@ -12,7 +12,7 @@ p,h1,h2,h3{font-family: "Roboto", sans-serif;}
 
 a{text-decoration: none;}
 
-.nomePapa, .tipoDocumento, .nomeDocumento, .documentos, h3{ text-align: center;}
+.nomePapa, .tipoDocumento, .nomeDocumento, .documento, h3{ text-align: center;}
 
 .nomeDocumento, .links a {color:#daa520;}
 
@@ -43,7 +43,7 @@ a{text-decoration: none;}
 
 .header h1{font-family: "trajan";}
 
-h1, .documentos{font-size: 40px;}
+h1, .documento{font-size: 40px;}
 
 h2{font-size: 30px;}
 
@@ -61,10 +61,23 @@ p {
   
 }
 
-.documentosRecentes{
-  text-align: center;
+.container{  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:20px;
+  height: 1000px;
+}
+
+.documentosRecentes, .documentosRelevantes{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 30px;
   font-size: 50px;
-  color: #59391b;
+  outline: 3px solid gray;
+  border-radius: 25px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
 .barraPapa{
@@ -80,6 +93,8 @@ p {
   min-width: 300px;
 }
 
+.barraPapa li{font-size: 23px;}
+
 .imagempapa{
             margin: 10px;
             margin-right: 0px;
@@ -92,9 +107,9 @@ p {
         display: flex;
       }   
 
-.listas li{
+li{
   padding-left: 10px;
-  font-size: 23px;
+  font-size: 45px;
   list-style: none;
             
 }
