@@ -1,5 +1,3 @@
- /* *  {outline: 2px solid red;}  */
-
 html, body {
     margin: 0; 
     padding: 0;
@@ -11,9 +9,9 @@ html, body {
 
 p,h1,h2,h3{font-family: "Roboto", sans-serif;}
 
-a{text-decoration: none;}
+.nav a, .container a{text-decoration: none;}
 
-.nomePapa, .tipoDocumento, .nomeDocumento, .documento, h3{ text-align: center;}
+.nomePapa, .tipoDocumento, .nomeDocumento, .documento, .descricaoDocumento, h3{ text-align: center;}
 
 .nomeDocumento, .links a {color:#daa520;}
 
@@ -80,6 +78,11 @@ p {
   outline: 3px solid gray;
   border-radius: 25px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.descricaoDocumento{
+  padding-left: 700px;
+  max-width: 500px;
 }
 
 .barraPapa{
