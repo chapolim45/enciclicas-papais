@@ -54,9 +54,10 @@ p {
   text-indent: 10px;
   font-size: 21px; 
   text-align: justify;
-  padding-left: 400px;
-  padding-right: 400px;
+  padding-left: 21%;
+  padding-right: 21%;
   padding-bottom: 20px;
+  /*max-width: 40%;*/
   
 }
 
@@ -81,8 +82,8 @@ p {
 }
 
 .descricaoDocumento{
-  padding-left: 700px;
-  max-width: 500px;
+  padding-left: 30%; /*700px*/
+  max-width: 40%; /*500px*/
 }
 
 .barraPapa{
