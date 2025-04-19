@@ -7,7 +7,19 @@ html, body {
 
 /* Cor para modo escuro body{ background-color: rgb(17 24 39);} */
 
-p,h1,h2,h3{font-family: "Roboto", sans-serif;}
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BBT";
+  src: url("fonts/BBTRegular.ttf") format('TrueType');
+}
+
+p,h1,h2,h3{font-family: Roboto, sans-serif;}
+
+.header h1{font-family: "BBT", Roboto, sans-serif;}
 
 .nav a, .container a{text-decoration: none;}
 
@@ -39,8 +51,6 @@ p,h1,h2,h3{font-family: "Roboto", sans-serif;}
   display: flex;
   justify-content: center;
 }
-
-.header h1{font-family: "trajan";}
 
 h1, .documento{font-size: 40px;}
 
@@ -117,15 +127,4 @@ li{
   font-size: 30px;
   list-style: none;
             
-}
-
-.roboto-regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "trajan";
-  src: url(fonts/trajan-regular.ttf);
 }
