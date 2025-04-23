@@ -7,19 +7,25 @@ html, body {
 
 /* Cor para modo escuro body{ background-color: rgb(17 24 39);} */
 
-.roboto-regular {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-}
-
 @font-face {
-  font-family: "BBT";
+  font-family: "BBT-Regular";
   src: url("fonts/BBTRegular.ttf") format('TrueType');
 }
 
-p,h1,h2,h3{font-family: Roboto, sans-serif;}
+@font-face {
+  font-family: "Cinzel-Bold";
+  src: url("fonts/Cinzel-Bold.ttf") format('TrueType');
+}
 
-.header h1{font-family: "BBT", Roboto, sans-serif;}
+h1,h2,h3{font-family: Roboto, sans-serif;}
+
+h1{font-size: 40px;}
+
+h2{font-size: 30px;}
+
+h3{font-size: 25px;}
+
+.header h1{font-family: "BBT-Regular", Roboto, sans-serif;}
 
 .nav a, .container a{text-decoration: none;}
 
@@ -27,8 +33,10 @@ p,h1,h2,h3{font-family: Roboto, sans-serif;}
 
 .nomeDocumento, .links a {color:#daa520;}
 
-.textoDocumento a{color:#BC8E1C;
-                  font-weight: 600;}
+.textoDocumento a{
+  color:#BC8E1C;
+  font-weight: 600;
+  }
 
 .nomeDocumento, .data{font-style: italic;}
 
@@ -52,15 +60,16 @@ p,h1,h2,h3{font-family: Roboto, sans-serif;}
   justify-content: center;
 }
 
-h1, .documento{font-size: 40px;}
+.nomePapa h1{font-family: "Cinzel-Bold",  Roboto, sans-serif;}
 
-h2{font-size: 30px;}
+.nomeDocumento h2, .tipoDocumento h2{font-family: "Cinzel-Bold", Roboto, sans-serif;}
 
-h3{font-size: 25px;}
+.descricaoDocumento h3, .textoDocumento h3 {font-family: "Cinzel-Bold", Roboto, sans-serif;}
 
 .subtexto{padding-left: 40px;}
 
 p {
+  font-family: Roboto, sans-serif;
   text-indent: 10px;
   font-size: 21px; 
   text-align: justify;
