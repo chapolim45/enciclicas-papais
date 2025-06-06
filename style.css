@@ -91,6 +91,7 @@ p {
 .documentosRecentes, .documentosRelevantes{
   display: flex;
   flex-direction: column;
+  align-items : center;
   gap: 10px;
   padding: 10px 30px;
   margin-bottom: 20px;
@@ -104,6 +105,10 @@ p {
   padding-left: 30%; /*700px*/
   max-width: 40%; /*500px*/
 }
+
+.documentosRecentes .documento, .documentosRelevantes .documento{max-width: 900px;}
+
+.documento li{padding-bottom: 15px;}
 
 .barraPapa{
   margin-top: 20px;
