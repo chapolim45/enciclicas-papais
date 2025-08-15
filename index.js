@@ -1,7 +1,7 @@
 function modoLeitura(){
     if (this.checked) {
         body.setAttribute("style", "background-color: #edd1b0");
-        if (textoDocumento !== null) { doc.setAttribute("style", "color: black"); }
+        if (textoDocumento !== null) { textoDocumento.setAttribute("style", "color: black"); }
         if (tipo !== null) { tipo.setAttribute("style", "color: black"); }
         if (descricao !== null) { descricao.setAttribute("style", "color: black"); }
         if (switchWrapper !== null){ switchWrapper.setAttribute("style", "color: black"); }
@@ -13,7 +13,7 @@ function modoLeitura(){
 
     else {
         body.setAttribute("style", "background-color: white;");
-        if (textoDocumento !== null) { doc.setAttribute("style", "color: black"); }
+        if (textoDocumento !== null) { textoDocumento.setAttribute("style", "color: black"); }
         if (tipo !== null) { tipo.setAttribute("style", "color: black"); }
         if (descricao !== null) { descricao.setAttribute("style", "color: black"); }
         if (switchWrapper !== null){ switchWrapper.setAttribute("style", "color: black"); }
@@ -28,7 +28,7 @@ function modoLeitura(){
 function modoEscuro(){
     if (this.checked) {
         body.setAttribute("style", "background-color: black;");
-        if (textoDocumento !== null) { doc.setAttribute("style", "color: #e8e6e3"); }
+        if (textoDocumento !== null) { textoDocumento.setAttribute("style", "color: #e8e6e3"); }
         if (tipo !== null) { tipo.setAttribute("style", "color: #e8e6e3"); }
         if (descricao !== null) { descricao.setAttribute("style", "color: #e8e6e3"); }
         if (switchWrapper !== null){ switchWrapper.setAttribute("style", "color: #e8e6e3"); }
@@ -39,7 +39,7 @@ function modoEscuro(){
   
     else {
         body.setAttribute("style", "background-color: white;");
-        if (textoDocumento !== null) { doc.setAttribute("style", "color: black"); }
+        if (textoDocumento !== null) { textoDocumento.setAttribute("style", "color: black"); }
         if (tipo !== null) { tipo.setAttribute("style", "color: black"); }
         if (descricao !== null) { descricao.setAttribute("style", "color: black"); }
         if (switchWrapper !== null){ switchWrapper.setAttribute("style", "color: black"); }
