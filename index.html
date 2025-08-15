@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
   <title>Enciclopédia Papal</title>
 </head>
 
@@ -18,46 +19,32 @@
       <a href ="index.html">Página Inicial </a> | 
       <a href="lista de papas.html">Lista de Papas</a> | 
       <a href="">Lista de Documentos</a> | <a href="">Sobre o Site</a> |
-      <!-- Trocar links por botões -->
-      <!-- Adicionar modo escuro e modo de leitura -->
-      <!-- Colocar filtros se é bula, enciclica etc. e escolher por papa, ordem alfabetica ou recente -->
     </div>
   </div>
 
- <div class="barraPesquisa">
-    <span>
-      <!-- Digite o nome do Papa
-      Digite o nome do documento
-      Filtrar por mais recente
-      Filtrar por mais antigo -->
-    </span>
-  </div>
-
-  <div class="container">
+  <div class="documentContainer">
     <div class="documentosRecentes">
       Documentos Adicionados Recentemente:
       <div class = "documento"> 
-        <li> <a href="humanae vitae.html">Humanae Vitae</a> </li> 
-        <li> <a href="anglicanorum coetibus.html">Anglicanorum Coetibus</a> </li> 
-        <li> <a href="Carta Apostolica com a qual Hildegarda de Bingen e proclamada Doutora da Igreja.html"> 
-          Carta Apostolica com a qual Hildegarda de Bingen é proclamada Doutora da Igreja</a> 
-        </li>
-        <li> <a href="Carta Apostolica com a qual Joao de Avila e proclamado Doutor da Igreja.html"> 
-          Carta Apostolica com a qual João de Ávila é proclamado Doutor da Igreja</a> 
-        </li>
-        <li> <a href="caritas in veritate.html">Caritas in Veritate</a></li>
+        <div class="links">
+          <li> <a href="anglicanorum coetibus.html">Anglicanorum Coetibus</a> </li> 
+          <li> <a href="humanae vitae.html">Humanae Vitae</a> </li> 
+          <li> <a href="Carta Apostolica com a qual Hildegarda de Bingen e proclamada Doutora da Igreja.html"> 
+            Carta Apostolica com a qual Hildegarda de Bingen é proclamada Doutora da Igreja</a> 
+          </li>
+          <li> <a href="Carta Apostolica com a qual Joao de Avila e proclamado Doutor da Igreja.html"> 
+            Carta Apostolica com a qual João de Ávila é proclamado Doutor da Igreja</a> 
+          </li>
+          <li> <a href="caritas in veritate.html">Caritas in Veritate</a></li>
+        </div>
 
       </div>
       
     </div>
 
-    <div class="documentosRelevantes">
-      Documentos Relevantes:
-      <div class = "documento"> 
-        <li> <a href="humanae vitae.html">Humanae Vitae</a> </li> 
-        
-      </div>
-      
+    <div class="switch-wrapper" id="homepage-switch-wrapper">
+        <div class="switchTextWrapper"> Modo Escuro: <input type="checkbox" class="switch" id="switch-basic-1"> </div>
+        <div class="switchTextWrapper"> Modo Leitura: <input type="checkbox" class="switch" id="switch-basic-2"> </div>
     </div>
     
   </div>

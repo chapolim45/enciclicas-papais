@@ -3,10 +3,8 @@
 
 <head>
   <meta charset= "UTF-8">
-  <link rel="stylesheet" href="style.css">
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> -->
+  <link rel = "stylesheet" href = "style.css">
+  <script src="index.js" defer></script>
   <title> Humanae Vitae </title>
 </head>
 
@@ -20,9 +18,6 @@
       <a href ="index.html">Página Inicial </a> | 
       <a href="lista de papas.html">Lista de Papas</a> | 
       <a href="">Lista de Documentos</a> | <a href="">Sobre o Site</a> |
-      <!-- Trocar links por botões -->
-      <!-- Adicionar modo escuro e modo de leitura -->
-      <!-- Colocar filtros se é bula, enciclica etc. e escolher por papa, ordem alfabetica ou recente -->
     </div>
   </div>
   
@@ -30,9 +25,15 @@
     <h1> Papa Paulo VI </h1>
   </div>
 
-  <center>
+  <div class="container"> 
     <div class="imagempapa"> <img src="images/papaPauloVI.png" width="250" height="250" alt="Papa São Paulo VI"> </div>
-  </center>
+
+      <div class="switch-wrapper">
+        <div class="switchTextWrapper"> Modo Escuro: <input type="checkbox" class="switch" id="switch-basic-1"> </div>
+        <div class="switchTextWrapper"> Modo Leitura: <input type="checkbox" class="switch" id="switch-basic-2"> </div>
+    </div>
+  </div>
+  
 
   <div class = "tipoDocumento">
     <h2> Carta Encíclica </h2>
@@ -178,7 +179,7 @@
       tanto do amor conjugal como de uma "paternidade responsável", convém precisar bem a verdadeira concepção destas duas grandes 
       realidades da vida matrimonial, atendo-nos principalmente a tudo aquilo que, a este propósito, foi recentemente exposto, de 
       forma altamente autorizada, pelo Concílio Ecumênico Vaticano II, na Constituição Pastoral 
-      <a href="documento nao adicionado.html">Gaudium et Spes</a>.
+      <a href="documento nao adicionado.html" target="_blank">Gaudium et Spes</a>.
     </p>
 
     <p><strong><i>O amor conjugal</i></strong></p>
@@ -520,7 +521,7 @@
     <p>
       Estamos absolutamente cônscios das graves dificuldades em que se encontram os Poderes públicos a este respeito, 
       especialmente nos países em vias de desenvolvimento. Dedicamos mesmo às suas preocupações legítimas a nossa Encíclica 
-      <a href="documento nao adicionado.html">Populorum Progressio</a>. Mas, com o nosso predecessor João XXIII, repetimos: 
+      <a href="documento nao adicionado.html" target="_blank">Populorum Progressio</a>. Mas, com o nosso predecessor João XXIII, repetimos: 
       "...Estas dificuldades não se podem vencer recorrendo a métodos e meios que são indignos do homem e que só encontram a 
       sua explicação num conceito estritamente materialista do mesmo homem e da vida. A verdadeira solução encontra-se somente 
       num progresso econômico e social que respeite e fomente os genuínos valores humanos, individuais e sociais".
